@@ -51,18 +51,27 @@ Client ↔ S1 (router + .c storage)
    gcc -o Client Client.c
    
 2. Start servers in separate terminals:
-
 ```bash
 ./Server1
 ./Server2
 ./Server3
 ./Server4
 
-3. Run the client:
 
+```
+3.Run the client
 ```bash
 ./Client
 
-4.Requirements
-Linux/Unix environment
-GCC compiler
+```
+4. Requirements
+
+-- Linux/Unix environment
+
+-- GCC compiler
+
+-- Basic Linux/UNIX knowledge
+
+
+
+
