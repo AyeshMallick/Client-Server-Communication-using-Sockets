@@ -48,21 +48,21 @@ Client ↔ S1 (router + .c storage)
    gcc -o Server2 Server2.c 
    gcc -o Server3 Server3.c 
    gcc -o Server4 Server4.c 
-   gcc -o Client Client.c 
-Start servers in separate terminals:
+   gcc -o Client Client.c
+   
+2. Start servers in separate terminals:
 
-bash
-Copy code
+```bash
 ./Server1
 ./Server2
 ./Server3
 ./Server4
-Run the client:
 
-bash
-Copy code
+3. Run the client:
+
+```bash
 ./Client
-Requirements
-Linux/Unix environment
 
+4.Requirements
+Linux/Unix environment
 GCC compiler
