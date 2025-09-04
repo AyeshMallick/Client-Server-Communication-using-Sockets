@@ -38,32 +38,30 @@ Client ↔ S1 (router + .c storage)
 ↳ S3 (.txt)
 ↳ S4 (.zip)
 
-yaml
-Copy code
 
 ---
 
 ## How to Run
 1. Compile each server and client:
    ```bash
-   gcc Ayeshkant_Mallick_110190414_S1.c -o S1
-   gcc Ayeshkant_Mallick_110190414_S2.c -o S2
-   gcc Ayeshkant_Mallick_110190414_S3.c -o S3
-   gcc Ayeshkant_Mallick_110190414_S4.c -o S4
-   gcc Ayeshkant_Mallick_110190414_s25client.c -o client
+   gcc -o Server1 Server1.c 
+   gcc -o Server2 Server2.c 
+   gcc -o Server3 Server3.c 
+   gcc -o Server4 Server4.c 
+   gcc -o Client Client.c 
 Start servers in separate terminals:
 
 bash
 Copy code
-./S1
-./S2
-./S3
-./S4
+./Server1
+./Server2
+./Server3
+./Server4
 Run the client:
 
 bash
 Copy code
-./client
+./Client
 Requirements
 Linux/Unix environment
 
